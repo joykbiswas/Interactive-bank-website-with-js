@@ -12,13 +12,14 @@ document.getElementById('btn-submit').addEventListener('click', function(){
    const passwordField = document.getElementById('user-password');
    const password = passwordField.value;
    
+   
    //don't verify email password on the client side
    //strep-4: verify email and password  and check valid
-   /*
-   if(email === 'joy@gmail.com' && password === 'kumar') {
+   
+   if(email === '' && password === '') {
        window.location.href = 'bank.html'
    }else{
     alert('incorrect password')
    }
-   */
+   
 })
